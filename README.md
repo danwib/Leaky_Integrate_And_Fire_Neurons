@@ -21,7 +21,6 @@ The aim is to show how each method behaves for different time steps `dt`, both i
 │   └── lif_exact.py     # Exact (exponential) LIF simulator
 ├── experiments
 │   └── compare_integrators.py  # Runs all three methods and produces plots
-└── figures/                     # Output plots are saved here
 ```
 
 ---
@@ -59,24 +58,6 @@ This will:
    - Spike count error.
    - First-spike timing error.
 
-All plots are saved into the `figures/` directory as `.png` files, for example:
-
-- `figures/membrane_traces_dt_1.00ms.png`
-- `figures/spike_trains_dt_1.00ms.png`
-- `figures/spike_count_error_vs_dt.png`
-- `figures/first_spike_error_vs_dt.png`
-
-### Viewing figures under WSL
-
-If you are running under WSL, you can open the current directory in Windows Explorer with:
-
-```bash
-explorer.exe .
-```
-
-Then navigate into `figures/` and open the PNG files with any image viewer.
-
----
 
 ## 4. What each file does
 
