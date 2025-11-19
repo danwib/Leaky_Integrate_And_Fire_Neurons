@@ -65,9 +65,8 @@ This will:
 
 Implements a current-based LIF neuron with **forward Euler**:
 
-\[
-v_{n+1} = v_n + \frac{\Delta t}{\tau_m}\left( - (v_n - v_\text{rest}) + R I_n \right)
-\]
+
+$v_{n+1} = v_n + \frac{\Delta t}{\tau_m}\left( - (v_n - v_\text{rest}) + R I_n \right)$
 
 This is explicit and easy to understand, but can become inaccurate or unstable if `dt` is too large.
 
